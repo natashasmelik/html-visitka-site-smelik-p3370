@@ -1,0 +1,39 @@
+/* CSS files add styling rules to your content */
+body{
+  background-color: #CCCCFF;
+}
+section{
+  text-align: center;
+  
+}
+nav{
+  background-color: #CC99FF;
+  color:#FFCC11;
+  position: fixed;
+  width: 150px;
+}
+section#photo{
+  margin-left:150px
+}
+section#about{
+  margin-left:150px
+}
+section#contact{
+  margin-left:150px
+}
+section#photo > div{
+  width: 1100px;
+  padding: 10px 50px 50px 50px;
+  background-color: #FFCCFF;
+  margin-top: 30px;
+}
+section#about >div{
+  padding: 10px 50px 50px 50px;
+  
+  background-color: #FFC0CB;
+}
+section#contact >div{
+  padding: 10px 50px 30px 50px;
+  margin-top: 30px;
+  background-color: #FFFFCC;
+}
